@@ -1,7 +1,7 @@
 package com.treinamento.user.controllers
 
-import com.treinamento.user.controllers.dtos.Usuario.PesquisaUsuarioDTO
-import com.treinamento.user.controllers.dtos.Usuario.RegistroUsuarioDTO
+import com.treinamento.user.controllers.dto.PesquisaUsuarioDTO
+import com.treinamento.user.controllers.dto.RegistroUsuarioDTO
 import com.treinamento.user.entity.Usuario
 import com.treinamento.user.mappers.UsuarioMapper
 import com.treinamento.user.service.UsuarioService

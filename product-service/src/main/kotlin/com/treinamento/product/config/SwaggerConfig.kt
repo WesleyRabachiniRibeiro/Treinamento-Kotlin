@@ -1,4 +1,4 @@
-package com.treinamento.user.config
+package com.treinamento.product.config
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
@@ -26,8 +26,8 @@ class SwaggerConfig {
 
         fun metaInfo() : ApiInfo{
         val apiInfo : ApiInfo = ApiInfo(
-            "API de Usuários",
-        "API REST de Cadastro de Usuário",
+            "API de Produtos",
+        "API REST de Cadastro de Produtos",
             "1.0",
             "Terms of Service",
             Contact("Wesley Rabachini Ribeiro", "https://www.linkedin.com/in/wesley-rabachini/",
