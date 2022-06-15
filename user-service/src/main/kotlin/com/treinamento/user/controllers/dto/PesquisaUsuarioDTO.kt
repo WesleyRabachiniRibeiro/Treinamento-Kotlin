@@ -1,4 +1,4 @@
-package com.treinamento.user.controllers.dtos.Usuario
+package com.treinamento.user.controllers.dto
 
 import com.treinamento.user.entity.Endereco
 
