@@ -1,0 +1,9 @@
+server:
+  port: 8090
+
+spring:
+  data:
+    mongodb:
+      username: root
+      password: password
+      uri: mongodb://localhost:27017/local
